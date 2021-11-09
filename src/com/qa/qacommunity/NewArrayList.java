@@ -8,19 +8,25 @@ public class NewArrayList {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		String[] fruits = new String[7];
-//		fruits[0] = "Apple";
-//		fruits[1] = "Strawberry";
-//		fruits[2] = "Kiwi";
-//		fruits[3] = "Banana";
-//		fruits[4] = "Grapes";
-//		fruits[5] = "Watermelon";
-//		fruits[6] = "Mango";
-//		System.out.println(fruits);
-//		
+		int[] fruitsList = new int[7];
+		
+		fruitsList[0] = 1;
+		fruitsList[1] = 2;
+		fruitsList[2] = 3;
+		fruitsList[3] = 4;
+		fruitsList[4] = 5;
+		fruitsList[5] = 6;
+		fruitsList[6] = 7;
+		
+		for (int i : fruitsList) {
+		System.out.println(i);
+		
+		}
+		
 	
 		
-		List<String>fruitList = new ArrayList();
+		List<String>fruitList = new ArrayList<>();
+		
 		fruitList.add("Apple");
 		fruitList.add("Strawberry");
 		fruitList.add("Kiwi");
